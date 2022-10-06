@@ -3,11 +3,6 @@
   display: flex;
   gap: 1rem;
 }
-.comment > img {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 8px;
-}
 
 .commentBox{
   flex: 1;
@@ -76,6 +71,11 @@
 
   border-radius: 2px;
 }
+
+/*
+  1° -> Quando um elemento se repete com uma certa frequência.
+  2° -> Quando voce consegue tirar algo do componente maior sem que aquele componente maior pare de funcionar, assim voce deixa o componente maior mias limpo com funcionalidade mais clara de receber manutenção = Criar Componente para isolar uma determinada função = Isolamos o código.
+*/
 
 .commentBox footer button:hover{
   color: var(--green-300);
