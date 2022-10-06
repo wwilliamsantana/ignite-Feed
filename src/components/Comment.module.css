@@ -74,7 +74,7 @@
 
 /*
   1° -> Quando um elemento se repete com uma certa frequência.
-  2° -> Quando voce consegue tirar algo do componente maior sem que aquele componente maior pare de funcionar, assim voce deixa o componente maior mias limpo com funcionalidade mais clara de receber manutenção = Criar Componente para isolar uma determinada função = Isolamos o código.
+  2° -> Quando voce consegue tirar algo do componente maior sem que aquele componente maior pare de funcionar, assim voce deixa o componente maior mias limpo com funcionalidade mais clara de receber manutenção = Criar Componente para isolar uma determinada "função" = Isolamos o código.
 */
 
 .commentBox footer button:hover{
