@@ -13,6 +13,11 @@
  
 }
 
+:focus{
+  outline: none;
+  outline: 2px solid var(--green-500);
+}
+
 *{
   margin: 0;
   padding: 0;
