@@ -8,3 +8,21 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+@media (max-width: 768px){
+
+  html{
+    font-size: 87.5%;
+  }
+
+  /*Utilizamos a unidade de medida REM -> Pois se alteramos a medida da fonte na raiz do projeto, todos os valores irão se ajustar de acordo a medida da font. Visto que o REM se baseia na medida padrão da font que é 16px*/
+
+  /* 16 -> 100% */
+  /* 14 ->  X  */ 
+
+  /*Neste calculo regra de 3, alteramos a fonte de 16 para 14, dessa forma alterando todas as medida que REM*/
+
+  .wrapper{
+    grid-template-columns: 1fr;
+  }
+}
